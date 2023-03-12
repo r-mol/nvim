@@ -3,7 +3,7 @@ return {
     copilot = true,
   },
   colorscheme = {
-    name = "tokyonight",
+    name = "sonokai",
     transparent_background = true,
   }
 }
