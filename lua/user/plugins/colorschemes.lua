@@ -30,6 +30,13 @@ local tokyonight = {
   end,
 }
 
+local sonokai = {
+  "sainnhe/sonokai",
+  config = function()
+    vim.cmd([[colorscheme sonokai]])
+  end,
+}
+
 local catppuccin = {
   "catppuccin/nvim",
   config = function()
@@ -84,6 +91,7 @@ local catppuccin = {
 local colorschemes = {
   ["catppuccin"] = catppuccin,
   ["tokyonight"] = tokyonight,
+  ["sonokai"] = sonokai,
 }
 
 local chosen = colorschemes[colorscheme]
